@@ -1,0 +1,63 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+    position: relative;
+    margin-top:-100px;
+    height:100px;
+}
+
+#article{
+     background-image: url("run.jpg");
+     background-size: cover;
+ 
+}
+
+#wrapper {
+   min-height: 100%;
+   margin-bottom: -100px;
+}
+
+#wrapper:after{
+    content: "";
+    display: block;
+}
+
+#wrapper:after, footer{
+    height: 100px;
+}
+
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px; 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
