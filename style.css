@@ -1,63 +1,29 @@
-html {
-    position: relative;
-    min-height: 100%;
-}
-#footer {
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:5px; 
-    position: relative;
-    margin-top:-100px;
-    height:100px;
+html{
+  background: url("B&W.jpg") no-repeat; 
+  background-size: cover;
 }
 
-#article{
-     background-image: url("run.jpg");
-     background-size: cover;
- 
+p {
+    font-size: 150%;
+    text-align: bottom;
 }
-
-#wrapper {
-   min-height: 100%;
-   margin-bottom: -100px;
+button{
+  color: #fff !important;
+	background-color: royalblue;
+	border-color: #222;
+	display: inline-block;
+	padding: .5em 1em;
+	margin-bottom: 0;
+	font-weight: 400;
+	line-height: 1.2;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: .2em;
+	text-decoration: none;
 }
-
-#wrapper:after{
-    content: "";
-    display: block;
-}
-
-#wrapper:after, footer{
-    height: 100px;
-}
-
-
-#header {
-    background-color:black;
-    color:white;
-    text-align:center;
-    padding:5px;
-}
-
-#nav {
-    line-height:30px;
-    background-color:#eeeeee;
-    height:300px;
-    width:100px;
-    float:left;
-    padding:5px; 
-}
-#section {
-    width:350px;
-    float:left;
-    padding:10px; 
-}
-#footer {
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:5px; 
+body{
+  vertical-align:text-bottom
 }
